@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing page using Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="page1" >
+      <div id="header" class="md:flex-wrap">
+        <div class="grid grid-cols-6 grid-cols-1">
+          <div class="flex justify-center col-span-2" class="md:flex-wrap">
+            <img src="Askmeidentity_2-removebg.png" />
+          </div>
+          <div class=" hidden sm:flex col-span-2 flex justify-around items-center " style="font-family: Righteous;">
+            <div><a>Home</a></div>
+            <div><a>About</a></div>
+            <div><a>Courses</a></div>
+            <div><a>Contact</a></div>
+          </div>
+          <div class="col-span-1 flex justify-center gap-6 items-center">
+            <a><i class="fa-solid fa-basket-shopping"></i></a>
+            <a><i class="fa-regular fa-user"></i></a>
+            <a><i class="fa-solid fa-magnifying-glass"></i></a>
+          </div>
+          <div class="flex justify-around items-center">
+            <div><button><u style="font-family: Saira;">Login</u></button></div>
+            <div>
+              <button
+                class="p-1 m-2 text-xl text-slate-50 border-2 border-white bg-gradient-to-r from-blue-700 to-violet-700 rounded-lg hover:bg-amber-500 hover:ring-4 hover:ring-indigo-500 hover:ring-opacity-50 transition"
+              >
+                Signup
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        id="hero_header"
+        class="bg-gradient-to-l from-blue-600 to-violet-600"
+      >
+        <div class="flex flex-col sm:grid grid-cols-4" style="font-size: Righteous;">
+          <div class="col-span-2 flex justify-evenly items-center flex-col">
+            <div class="text-white text-lg"><h2>Successful coaches are visionaries</h2></div>
+            <div class="text-white text-7xl text-center font-extrabold"><h1>Good <span class="text-blue-500">coaching</span> is good teaching & nothing else.</h1></div>
+            <div class="flex gap-3 text-white text-lg align-middle ">
+              <div class="border-2 border-white p-3 rounded-lg">View Courses</div>
+              <div class="p-3">Get Free Consultation</div>
+            </div>
+            <div class="h-15 bg-white w-96 flex justify-around ">
+              <label
+                value="What do you want to learn today?"
+                for="search"
+                class="flex "
+                
+              >
+              <input
+                type="none"
+                value="What do you want to learn today?"
+                id="Search"
+                name="search"
+              />
+              </label>
+              <button
+               class="p-1 m-2 text-xl text-slate-50 border-2 border-white bg-gradient-to-r from-blue-700 to-violet-700 rounded-lg"
+               
+              >
+              <i class="fa-solid fa-magnifying-glass p-2 text-base"></i>
+              Search
+              </button>
+            </div>
+          </div>
+          <div class=" text-center sm:col-span-1 flex items-start flex-col pt-28 text-white">
+            <h1 style="font-family: Rowdies;" class="flex flex-start">Shyam</h1>
+            <p class="w-64" style="font-family: Righteous;">
+              In a coaching role, you ask the questions and rely more on your
+              staff, who become the experts, to provide the information.
+            </p>
+            <span class="text-blue-300 text-xl font-medium">4.9</span>
+          </div>
+          <div class="col-span-1 backdrop-opacity-10">
+            <img src="brunette-woman-hugging-laptop_1.png" />
+          </div>
+          <div></div>
+        </div>
+      </div>
+      <div
+        id="app"
+        class="text-white flex justify-around p-14 bg-gradient-to-r from-blue-600 to-violet-600 border-2 border-white"
+      >
+        <div>
+          <a><img src="Spotify.png" /></a>
+        </div>
+        <div>
+          <a><img src="Amazon link icon.png" /></a>
+        </div>
+        <div>
+          <a><img src="Spotify.png" /></a>
+        </div>
+        <div>
+          <a><img src="Cisco link icon.png" /></a>
+        </div>
+        <div>
+          <a><img src="Logitech.png" /></a>
+        </div>
+        <div>
+          <a><img src="Amazon link icon.png" /></a>
+        </div>
+      </div>
+    </div>
+    <div id="page2" class="bg-teal-50">
+      <div class="flex justify-center p-20">
+        <div class="mr-6  pr-28 flex flex-start"><img src="Ellipse.png" /></div>
+        <div class="flex flex-col justify-center text-center gap-6">
+          <h1 style="font-family: Rowdies;" class="text-5xl font-extrabold tracking-tighter">Featured <span class="text-blue-500">Course</span> </h1>
+          <p style="font-family: Righteous;"class=tracking-wider>THE FEARTURE COURSES ARE WE INVENTED OUR TEACHING PART</p>
+        </div>
+      </div>
+      <div>
+        <div class="md:flex justify-around">
+          <div id="Course1" class="m-5 bg-white">
+            <img src="Motion Graphic.png" />
+            <div>
+              <div class="p-4 flex justify-between">
+                <div>1,957 Students</div>
+                <div>01h 59m</div>
+              </div>
+              <div class="p-4">
+                Motion Graphics: Create a Nice Typography Animation
+              </div>
+              <div class="p-4 flex justify-between">
+                <div>Rs.499</div>
+                <a><i class="fa-solid fa-cart-shopping"></i></a>
+              </div>
+            </div>
+          </div>
+          <div id-="Course2" class="m-5 bg-white">
+            <img src="Advance PHP.png" />
+            <div>
+              <div class="p-4 flex justify-between">
+                <div>9,575 Students</div>
+                <div>01h 59m</div>
+              </div>
+              <div class="p-4">
+                Advance PHP knowledge with JS to make smart web
+              </div>
+              <div class="p-4 flex justify-between">
+                <div>Rs.499</div>
+                <a><i class="fa-solid fa-cart-shopping"></i></a>
+              </div>
+            </div>
+          </div>
+          <div id="Course3" class="m-5 bg-white">
+            <img src="Education.png" />
+            <div>
+              <div class="p-4 flex justify-between">
+                <div>2,957 Students</div>
+                <div>02h 49m</div>
+              </div>
+              <div class="p-4">
+                Education Software and PHP and JS System Script
+              </div>
+              <div class="p-4 flex justify-between">
+                <div>Rs.499</div>
+                <a><i class="fa-solid fa-cart-shopping"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="md:flex justify-around">
+          <div id="Course4" class="m-5 bg-white">
+            <img src="Financial.png" />
+            <div>
+              <div class="p-4 flex justify-between">
+                <div>5,457 Students</div>
+                <div>01h 49m</div>
+              </div>
+              <div class="p-4">
+                The Complete Financial Analyst Training & Investing
+              </div>
+              <div class="p-4 flex justify-between">
+                <div>Rs.499</div>
+                <a><i class="fa-solid fa-cart-shopping"></i></a>
+              </div>
+            </div>
+          </div>
+          <div id="Course5" class="m-5 bg-white">
+            <img src="Marketing.png" />
+            <div>
+              <div class="p-4 flex justify-between">
+                <div>595 Students</div>
+                <div>01h 49m</div>
+              </div>
+              <div class="p-4">
+                Marketing 2023: Complete Guide To Instagram Growth
+              </div>
+              <div class="p-4 flex justify-between">
+                <div>Rs.499</div>
+                <a><i class="fa-solid fa-cart-shopping"></i></a>
+              </div>
+            </div>
+          </div>
+          <div id="Course6" class="m-5 bg-white">
+            <img src="3D modelling.png" />
+            <div>
+              <div class="p-4 flex justify-between">
+                <div>458 Students</div>
+                <div>03h 00m</div>
+              </div>
+              <div class="p-4">Learn 3D Modelling and Design for Beginners</div>
+              <div class="p-4 flex justify-between">
+                <div>Rs.499</div>
+                <a><i class="fa-solid fa-cart-shopping"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center p-20">
+          <div class="border-2 rounded-lg bg-blue-600 text-white p-4">
+            Explore courses
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="page3" class=" bg-gradient-to-r from-blue-300 to-violet-700 text-white pb-28" >
+      <div class=" flex flex-col text-center justify-center p-28 items-center">
+        <h1 style="font-family: Righteous ;" class="text-5xl">Why <span class="text-blue-900">learn</span> with our courses?</h1>
+        <p class="text-2xl w-3/5 p-4" >
+          We are providing the best courses and top classes.And extradinery
+          placement training.....
+        </p>
+      </div>
+      <div class="flex justify-evenly">
+        <div class="flex flex-col items-center gap-10 w-80">
+          <div><img src="Learn.png" class="h-20 w-20" /></div>
+          <div class="flex flex-col items-center gap-7">
+            <h1 style="font-family: Righteous" class="text-2xl">01. Learn</h1>
+            <p class="text-lg">
+              Learn continually. There is always “one more thing”to learn.
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-col items-center gap-10 w-80">
+          <div><img src="Graduate.png" class="h-20 w-20" /></div>
+          <div class="flex flex-col items-center gap-7">
+            <h1 style="font-family: Righteous" class="text-2xl">
+              02. Graduate
+            </h1>
+            <p class="text-lg">Be bold,be courageous, be your best.</p>
+          </div>
+        </div>
+        <div class="flex flex-col items-center gap-10 w-80">
+          <div><img src="Work.png" class="h-20 w-20" /></div>
+          <div class="flex flex-col items-center gap-7">
+            <h1 style="font-family: Righteous" class="text-2xl">03. Work</h1>
+            <p class="text-lg">
+              Great companies are built in the office,with hard work put in by
+              team.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="page4" class="bg-gradient-to-b from-white to-cyan-100">
+      <div class="text-center p-28" style="font-family: Righteous;">
+        <h1 class="text-5xl p-7">Top <span class="text-blue-500">Categories</span></h1>
+        <p >100+ unique online course list designs</p>
+      </div>
+      <div class="grid sm:flex justify-around">
+        <div
+          class="h-80 w-64 flex items-center justify-center flex-col gap-7 bg-white rounded-lg m-5"
+        >
+          <div
+            class="h-24 w-24 bg-rose-600 flex justify-center items-center rounded-lg"
+          >
+            <div class="">
+              <img src="Digital marketing.png " />
+            </div>
+          </div>
+          <div
+            style="font-family: Righteous"
+            class="w-24 flex flex-col text-center"
+          >
+            <h1 class="text-xl">Digtal Marketing</h1>
+          </div>
+          <span style="font-family: Righteous" class="text-slate-500"
+            >25 Courses</span
+          >
+        </div>
+        <div
+          class="h-80 w-64 flex items-center justify-center flex-col gap-7 bg-white rounded-lg m-5"
+        >
+          <div
+            class="h-24 w-24 bg-emerald-600 flex justify-center items-center rounded-lg"
+          >
+            <div class="">
+              <img src="Web Development.png " />
+            </div>
+          </div>
+          <div
+            style="font-family: Righteous"
+            class="w-24 flex flex-col text-center"
+          >
+            <h1 class="text-xl">Web Development</h1>
+          </div>
+          <span style="font-family: Righteous" class="text-slate-500"
+            >16 Courses</span
+          >
+        </div>
+        <div
+          class="h-80 w-64 flex items-center justify-center flex-col gap-7 bg-white rounded-lg m-5"
+        >
+          <div
+            class="h-24 w-24 bg-indigo-600 flex justify-center items-center rounded-lg"
+          >
+            <div class="">
+              <img src="Art & Humanities.png" />
+            </div>
+          </div>
+          <div
+            style="font-family: Righteous"
+            class="w-24 flex flex-col text-center"
+          >
+            <h1 class="text-xl">Art & Humanities</h1>
+          </div>
+          <span style="font-family: Righteous" class="text-slate-500"
+            >76 Courses</span
+          >
+        </div>
+        <div
+          class="h-80 w-64 flex items-center justify-center flex-col gap-7 bg-white rounded-lg m-5"
+        >
+          <div
+            class="h-24 w-24 bg-amber-500 flex justify-center items-center rounded-lg"
+          >
+            <div class="">
+              <img src="Personal Development.png" />
+            </div>
+          </div>
+          <div
+            style="font-family: Righteous"
+            class="w-24 flex flex-col text-center"
+          >
+            <h1 class="text-xl">Personal Development</h1>
+          </div>
+          <span style="font-family: Righteous" class="text-slate-500"
+            >22 Courses</span
+          >
+        </div>
+        <div
+          class="h-80 w-64 flex items-center justify-center flex-col gap-7 bg-white rounded-lg m-5"
+        >
+          <div
+            class="h-24 w-24 bg-emerald-600 flex justify-center items-center rounded-lg"
+          >
+            <div class="">
+              <img src="IT and Software.png" />
+            </div>
+          </div>
+          <div
+            style="font-family: Righteous"
+            class="w-24 flex flex-col text-center"
+          >
+            <h1 class="text-xl">IT and Software</h1>
+          </div>
+          <span style="font-family: Righteous" class="text-slate-500"
+            >110 Courses</span
+          >
+        </div>
+        <div
+          class="h-80 w-64 flex items-center justify-center flex-col gap-7 bg-white rounded-lg m-5"
+        >
+          <div
+            class="h-24 w-24 bg-rose-600 flex justify-center items-center rounded-lg"
+          >
+            <div class="">
+              <img src="Graphic Design.png" />
+            </div>
+          </div>
+          <div
+            style="font-family: Righteous"
+            class="w-24 flex flex-col text-center"
+          >
+            <h1 class="text-xl">Graphic Design</h1>
+          </div>
+          <span style="font-family: Righteous" class="text-slate-500"
+            >85 Courses</span
+          >
+        </div>
+      </div>
+    </div>
+    <div
+      id="page5"
+      class="flex flex-col gap-16"
+    >
+      <div id="first_part" class="flex justify-evenly">
+        <div
+          class="w-4/5 m-28 rounded-lg text-white bg-gradient-to-r from-purple-500 to-pink-500 h-96 flex flex-col justify-evenly items-center"
+        >
+          <h1 style="font-family: Righteous" class="text-4xl text-center w-2/4">
+            Subscribe For Get Update Every New Courses
+          </h1>
+          <p class="text-base">
+            20k+ students daily learn with Eduvi. Subscribe for new courses.
+          </p>
+          <div class="border-2 rounded-lg">
+            <form class="flex">
+              <label for="search" class="h-">
+                <input
+                  style="font-family: Righteous"
+                  type="email"
+                  placeholder="enter your email"
+                  id="Search"
+                  name="search"
+                  class="pl-14 h-16 w-80 bg-transparent border-2 rounded-lg border-transparent"
+                />
+              </label>
+              <button
+                style="font-family: Righteous"
+                class="text-base text-slate-50 w-32 border-2 border-transparent bg-blue-800 rounded-r-lg"
+              >
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div id="second_part" class="flex justify-center h-1/3">
+        <img src="video image.png" />
+      </div>
+      <div
+        id="third_part"
+        class="flex justify-center items-center flex-col gap-20"
+      >
+
+      </div>
+    </div>
+    <div id="page6" class=" p-0 sm:p-28 flex flex-col bg-gradient-to-b from-white to-cyan-100 gap-16">
+      <div class="text-center p-10">
+        <h1
+          class="text-blue-900 text-5xl p-10"
+          style="font-family: Righteous"
+        >
+          Testimonials
+        </h1>
+        <span class="text-xl" style="font-family: Righteous;">What our student say about us</span>
+      </div>
+      <div class="md:flex gap-10 justify-center">
+        <div class="h-32 w-96 flex flex-col justify-center items-center">
+            <div
+              class="w-96 flex justify-center bg-gradient-to-t from-tranperant to-white"
+            >
+              <img src="user icon.png" alt="user icon" />
+            </div>
+            <div class="bg-white p-10">
+              <p class="text-sm">
+                Such an amazing traniner and easily understand the entire
+                syllabus, and the guidence will be super and good to the way of
+                explaning.
+              </p>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="text-slate-400 fa-solid fa-star"></i>
+            </div>
+        </div>
+        <div class="h-32 w-96 flex flex-col justify-center items-center">
+            <div
+              class="w-96 flex justify-center bg-gradient-to-t from-tranperant to-white"
+            >
+              <img src="user icon.png" alt="user icon" />
+            </div>
+            <div class="bg-white p-10">
+              <p class="text-sm">
+                Such an amazing traniner and easily understand the entire
+                syllabus, and the guidence will be super and good to the way of
+                explaning.
+              </p>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class=" text-slate-400 fa-solid fa-star"></i>
+            </div>
+        </div>
+        <div class="h-32 w-96 flex flex-col justify-center items-center">
+            <div
+              class="w-96 flex justify-center bg-gradient-to-t from-tranperant to-white"
+            >
+              <img src="user icon.png" alt="user icon" />
+            </div>
+            <div class="bg-white p-10">
+              <p class="text-sm">
+                Such an amazing traniner and easily understand the entire
+                syllabus, and the guidence will be super and good to the way of
+                explaning.
+              </p>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class=" text-slate-400 fa-solid fa-star"></i>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div id="page7" class="footer ">
+      <div class="flex-col sm:flex-row flex justify-around text-center bg-gradient-to-b from-violet-600 to-blue-600 p-10 ">
+          <div class="flex justify-start flex-col">
+            <h3 style="font-family: Righteous;">Connect</h3>
+            <img src="Askmeidentity_2-removebg.png" />
+            <p class="w-52">
+              Sri Jagannath Nivas,8-1-164/345/A/1, Pragati Colony, Mailardevpally,
+              Nawab Saheb Kunta, Hyd, 500005
+            </p>
+          </div>
+          <nav class="text-start">
+            <h3 style="font-family: Righteous;">Classes</h3>
+            <ul>
+              <li>Classroom courses</li>
+              <li>Virtual classroom courses</li>
+              <li>E-learning courses</li>
+              <li>Video Courses</li>
+              <li>Offline Courses</li>
+            </ul>
+          </nav>
+          <nav class="text-start">
+            <h3 style="font-family: Righteous;">Community</h3>
+            <ul>
+              <li>Learners</li>
+              <li>Parteners</li>
+              <li>Developers</li>
+              <li>Transactions</li>
+              <li>Blog</li>
+          </nav>
+          <nav class="text-start">
+            <h3 style="font-family: Righteous;">Quick links</h3>
+            <ul>
+              <li><a>Home</a></li>
+              <li><a>Professional Education</a></li>
+              <li><a>Courses</a></li>
+              <li><a>Admissions</a></li>
+              <li><a>Testimonial</a></li>
+              <li><a>Programs</a></li>
+            </ul>
+          </nav>
+          <nav class="text-start">
+            <h3 style="font-family: Righteous;">More</h3>
+            <ul>
+              <li><a>Press</a></li>
+              <li><a>Investors</a></li>
+              <li><a>Terms</a></li>
+              <li><a>Privacy</a></li>
+              <li><a>Help</a></li>
+              <li><a>Contact</a></li>
+            </ul>
+          </nav>
+      </div>
+      <div class="flex justify-around text-center bg-gradient-to-b from-violet-600 to-blue-600 p-5">
+        <div class="flex justify-between gap-3">
+          <img src="Instagram.png" class="rounded-full bg-white p-2">
+          <img src="WhatsApp.png" class="rounded-full bg-white p-2">
+          <img src="Twitter.png" class="rounded-full bg-white p-2">
+          <img src="LinkedIn.png" class="rounded-full bg-white p-2">
+          <img src="YouTube.png" class="rounded-full bg-white p-2">
+        </div>
+      </div>
+      <div class="flex bg-blue-700 text-white justify-center ">Copyright @ 2023 askmeidentity. All Rights Reserved</div>
+    </div>
+  </body>
+</html>
